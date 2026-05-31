@@ -1,0 +1,12 @@
+{
+  "vault_contract": {
+    "decision_card_url": "https://stratos.example/.well-known/decisions/A.json",
+    "cross_binding_refs": {
+      "defense_decision_record_audit_stream_repo": "not-a-url",
+      "cmmc_l2_l3_readiness_evidence_bundle_repo": "https://github.com/mizcausevic-dev/cmmc-l2-l3-readiness-evidence-bundle"
+    }
+  },
+  "audit_stream_events": [
+    { "kind": "defensetech.rfp.requirement-analyzed", "decision_card_ref": "https://stratos.example/.well-known/decisions/B.json" }
+  ]
+}

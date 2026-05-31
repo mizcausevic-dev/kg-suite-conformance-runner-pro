@@ -1,0 +1,18 @@
+{
+  "vault_contract": {
+    "contract_id": "STRATOS-VAULT-GUARDIANAI-2026Q4",
+    "decision_card_url": "https://stratos-aerospace.example/.well-known/decisions/STRATOS-DEC-2026-DEF-0084.json",
+    "cross_binding_refs": {
+      "defense_decision_record_audit_stream_repo": "https://github.com/mizcausevic-dev/defense-decision-record-audit-stream",
+      "cmmc_l2_l3_readiness_evidence_bundle_repo": "https://github.com/mizcausevic-dev/cmmc-l2-l3-readiness-evidence-bundle",
+      "defense_ai_incident_card_profile_repo": "https://github.com/mizcausevic-dev/defense-ai-incident-card-profile"
+    }
+  },
+  "audit_stream_events": [
+    { "kind": "defensetech.rfp.requirement-analyzed", "decision_card_ref": "https://stratos-aerospace.example/.well-known/decisions/STRATOS-DEC-2026-DEF-0084.json" },
+    { "kind": "defensetech.dfars.cyber-incident-flagged", "decision_card_ref": "https://stratos-aerospace.example/.well-known/decisions/STRATOS-DEC-2026-DEF-0084.json" }
+  ],
+  "incident_cards": [
+    { "event_type": "dfars-72-hour-cyber-incident", "decision_card_url": "https://stratos-aerospace.example/.well-known/decisions/STRATOS-DEC-2026-DEF-0084.json" }
+  ]
+}

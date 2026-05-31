@@ -1,0 +1,16 @@
+{
+  "name": "kg-suite-conformance-runner-pro",
+  "version": "0.1.0",
+  "description": "Extended KG Suite conformance runner: (a) multi-vertical applicability scan, (b) cross_binding_refs resolution + reachability check, (c) provenance-chain verification (audit-stream event → evidence-bundle item → incident-card → Decision Card all reference the same root). Built for PR-gate-time integrity verification.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": { "kg-suite-conform-pro": "src/cli.mjs" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "node src/cli.mjs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mizcausevic-dev/kg-suite-conformance-runner-pro",
+  "repository": { "type": "git", "url": "git+https://github.com/mizcausevic-dev/kg-suite-conformance-runner-pro.git" },
+  "keywords": ["kinetic-gain-protocol-suite", "conformance", "cross-binding", "provenance-chain", "horizontal-tool", "pr-gate"]
+}
